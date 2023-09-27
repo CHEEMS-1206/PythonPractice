@@ -43,3 +43,18 @@ multiSet = {23, True, 'true'} # data with diff types
 empSet = {90} # empty set
 setFromConst = set({1,2,3,4}) # creating set by using constructor
 print(type(usersSet),type(multiSet),type(empSet),type(setFromConst))
+
+#   Dicts - 
+#       Dicts are used to store multiple key:value pair items in a single variable.
+#       Dicts are created using {} brackets
+#       Dicts items are unordered, unindexed, unchangeable, and donot allow duplicate values.
+#       Dicts can be altered
+#       Dicts can
+#  be empty
+
+# Definition
+usersdicts = {'amy': 34, 'mahika' : 15, 'genny' : 14} # can store multiple 
+multidicts = {23 : "mata", True : 5, 'true' : 90} # data with diff types
+empdicts = {90:45} # empty dicts
+dictsFromConst = dict({1:2,2:3,3:4,4:5}) # creating dicts by using constructor
+print(type(usersdicts),type(multidicts),type(empdicts),type(dictsFromConst))
